@@ -1,0 +1,7 @@
+### 2048 game using python. 
+ 
+For this project, the Tkinter library and random is utilized. Tkinter is a powerful tool for developing graphical user interfaces (GUIs). The random module in Python provides functions for generating random numbers.  This program has straightforward buttons and canvas is used.
+ 
+A basic Tkinter-based GUI with buttons are produced by this code. The game logic revolves around a 4×4 grid where numbered tiles slide across the grid in response to user input (arrow keys). The objective is to combine tiles with the same number to reach the 2048 tile. The game grid is represented as a 2D list, with each element corresponding to a tile’s value. Tiles slide as far as possible in the chosen direction, combining with adjacent tiles of the same value along the way. After each move, a new tile (with a value of either 2 or 4) appears at a random empty spot on the grid.
+
+The game responds to arrow key events for moving tiles in different directions (up, down, left, right). Each arrow key press triggers a move, which involves shifting tiles and combining them according to the game rules. A “New Game” button allows players to start a new game at any time, resetting the game grid and score.
